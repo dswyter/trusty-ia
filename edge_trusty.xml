@@ -37,6 +37,10 @@
         <copyfile dest="makefile" src="iot_joule.mk"/>
     </project>
 
+    <!-- trusty toolchains projects -->
+    <project path="toolchain/gcc/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/" remote="aosp"/>
+    <project path="toolchain/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
+
     <!-- trusty sand projects -->
     <project path="trusty/app/sand" name="trusty_app_sand"/>
     <project path="trusty/device/x86/sand" name="trusty_device_x86_sand"/>
