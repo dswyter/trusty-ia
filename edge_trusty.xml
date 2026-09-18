@@ -34,7 +34,7 @@
 
     <!-- trusty build projects -->
     <project path="build" name="build" remote="trusty-ia" revision="omr1">
-        <copyfile dest="iot_joule.mk" src="linux_trusty.mk"/>
+        <copyfile dest="makefile" src="iot_joule.mk"/>
     </project>
 
     <!-- trusty sand projects -->
